@@ -1,5 +1,5 @@
 docker run \
---name spawning_pool \ 
+--name spawning-pool \ 
 --restart on-failure \
 --mount source=hatchery,target=/var/lib/mysql \
 --env MYSQL_ROOT_PASSWORD=Kerrigan \
