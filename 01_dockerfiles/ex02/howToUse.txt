@@ -1,0 +1,20 @@
+#Install RVM
+
+Run:
+`\curl -sSL https://get.rvm.io | bash`
+
+Then add the following to the bottom of your '~/.zshrc' file:
+source ~/.rvm/scripts/rvm
+
+Then run the following:
+`exec $SHELL`
+`rvm install 2.4.1`
+`rvm use 2.4.1`
+`rvm default 2.4.1`
+
+gem install rails
+rails new blog #this is just to create an application so we can test the cases
+
+cd blog
+mv "rails dockerfile into blog"
+docker build -t blogTest .

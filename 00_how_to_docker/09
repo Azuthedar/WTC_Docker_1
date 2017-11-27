@@ -2,3 +2,6 @@ apt-get update
 apt-get install clang
 apt-get install git
 apt-get update
+
+
+#to test, run this:    docker run -it --rm debian

@@ -1,1 +1,1 @@
-dokcer-machine create Char
+docker-machine create Char --driver=virtualbox
